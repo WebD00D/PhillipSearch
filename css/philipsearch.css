@@ -1,12 +1,37 @@
 
-#mainrow{
-  margin-top:25%;
-}
+.thinlink{font-weight: 200;letter-spacing: 3px;}
+.Link-with-border{border: 2px solid white;border-radius: 50px;padding:10px;padding-left:15px;padding-right:15px;}
+.Link-with-border:hover{background-color: orange;border-color: orange;}
+.logoimg{height:140px;margin-top: 20px;}
+.headertext{font-weight: 200;margin-top: 25%;color:orange;margin-bottom: 0px;}
+.subheadertext{font-weight: 200;color:white;font-size: 17px;margin-top: 0px;margin-bottom:0px;}
+.linebreak{height:2px;background-color:white;border:none;}
+.paragraphs{text-align: justify;color:white;}
+
+/* label color */
+ .input-field label {
+   color: orange ;
+ }
+
+ .input-field input[type=text]{
+    color:white;
+    font-weight: 200;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: orange ;
+
+ }
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+   border-bottom: 1px solid white;
+   box-shadow: 0 1px 0 0 #000;
+   color:white;
+ }
+
 
 @media only screen and (max-width : 600px) {
 
-  #mainrow{
-    margin-top:45%;
-  }
+
 
 }
