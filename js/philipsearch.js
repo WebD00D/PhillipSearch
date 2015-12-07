@@ -18,6 +18,7 @@ $(document).ready(function(){
     $("#img_NutritionPhil").hide();
     $("#img_LifePhil").hide();
     $("#img_FitPhil").hide();
+    $("#img_ContactPhil").hide();
   }
 
   function resetLinkColor(){
@@ -59,6 +60,7 @@ $(document).ready(function(){
     hideAllPhils();
     resetLinkColor();
     $("#tmpConnect").show();
+    $("#img_ContactPhil").show();
   })
 
 

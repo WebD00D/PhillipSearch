@@ -5,7 +5,7 @@
 .fitnessbtn:hover{background-color: #f4ff81;border-color: #f4ff81;color:black;}
 .nutritionbtn:hover{background-color: #81d4fa ;border-color: #81d4fa ;}
 .lifebtn:hover{background-color: #e91e63 ;border-color: #e91e63 ;}
-.connectbtn:hover{background-color:orange;border-color:orange;}
+.connectbtn:hover{background-color:#ef5350;border-color:#ef5350;}
 .logoimg{height:140px;margin-top: 20px;}
 .headertext{font-weight: 200;margin-top: 25%;color:orange;margin-bottom: 0px;}
 .subheadertext{font-weight: 200;color:white;font-size: 17px;margin-top: 0px;margin-bottom:0px;}
@@ -14,7 +14,7 @@
 
 /* label color */
  .input-field label {
-   color: orange ;
+   color: #ef5350 ;
  }
 
  .input-field input[type=text]{
