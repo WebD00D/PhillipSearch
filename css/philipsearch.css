@@ -12,6 +12,7 @@
 .linebreak{height:2px;background-color:white;border:none;}
 .paragraphs{text-align: justify;color:white;}
 
+
 /* label color */
  .input-field label {
    color: #ef5350 ;
@@ -31,6 +32,13 @@
    border-bottom: 1px solid white;
    box-shadow: 0 1px 0 0 #000;
    color:white;
+ }
+
+
+ @media screen and (min-width:1920px) {
+   #maincolumn{
+     padding-top: 20%;
+   }
  }
 
 
