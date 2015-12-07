@@ -49,9 +49,9 @@ $(document).ready(function(){
     hideAllTemplates();
     hideAllPhils();
     resetLinkColor();
-    $(".life").css("color","orange");
+  
     $("#tmpLife").show();
-    $(".life").addClass("pink-text");
+    $(".life").addClass("pink-text text-lighten-2");
     $("#img_LifePhil").show();
   })
 
