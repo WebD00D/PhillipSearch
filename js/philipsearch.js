@@ -3,7 +3,7 @@ $(document).ready(function(){
   hideAllTemplates();
   hideAllPhils();
   $("#tmpFitness").show();
-  $(".fitness").css("color","#f4ff81");
+  $(".fitness").css("color","#F39B3B");
   $("#img_FitPhil").show();
 
 
@@ -33,7 +33,7 @@ $(document).ready(function(){
     hideAllTemplates();
     hideAllPhils();
     resetLinkColor();
-    $(".fitness").css("color","#f4ff81");
+    $(".fitness").css("color","#F39B3B");
     $("#tmpFitness").show();
       $("#img_FitPhil").show();
   })
@@ -49,7 +49,7 @@ $(document).ready(function(){
     hideAllTemplates();
     hideAllPhils();
     resetLinkColor();
-  
+
     $("#tmpLife").show();
     $(".life").addClass("pink-text text-lighten-2");
     $("#img_LifePhil").show();

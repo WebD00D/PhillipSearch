@@ -2,7 +2,7 @@
 .thinlink{font-weight: 200;letter-spacing: 3px;}
 .Link-with-border{border: 2px solid white;border-radius: 50px;padding:10px;padding-left:15px;padding-right:15px;}
 .fitnessbtn{color:white;font-weight: 300;}
-.fitnessbtn:hover{background-color: #f4ff81;border-color: #f4ff81;color:black;}
+.fitnessbtn:hover{background-color: #F39B3B;border-color: #F39B3B;color:black;}
 .nutritionbtn:hover{background-color: #81d4fa ;border-color: #81d4fa ;}
 .lifebtn:hover{background-color: #e91e63 ;border-color: #e91e63 ;}
 .connectbtn:hover{background-color:#ef5350;border-color:#ef5350;}
