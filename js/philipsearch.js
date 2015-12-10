@@ -1,9 +1,12 @@
 $(document).ready(function(){
-
+  $('.button-collapse').sideNav();
   hideAllTemplates();
   hideAllPhils();
   $("#tmpFitness").show();
   $(".fitness").css("color","#F39B3B");
+  $(".nutrition").css("color","white");
+  $(".life").css("color","white");
+  $(".connect").css("color","white");
   $("#img_FitPhil").show();
 
 
@@ -27,6 +30,7 @@ $(document).ready(function(){
     $(".life").css("color","white");
     $(".nutrition").removeClass("light-blue-text text-lighten-3");
     $(".life").removeClass("pink-text");
+    $(".connectMobile").css("color","white");
   }
 
   $(".fitness").click(function(){
@@ -35,7 +39,9 @@ $(document).ready(function(){
     resetLinkColor();
     $(".fitness").css("color","#F39B3B");
     $("#tmpFitness").show();
-      $("#img_FitPhil").show();
+    $("#img_FitPhil").show();
+
+
   })
   $(".nutrition").click(function(){
     hideAllTemplates();
@@ -60,6 +66,7 @@ $(document).ready(function(){
     hideAllPhils();
     resetLinkColor();
     $("#tmpConnect").show();
+    $(".connectMobile").css("color","#ef5350");
     $("#img_ContactPhil").show();
   })
 

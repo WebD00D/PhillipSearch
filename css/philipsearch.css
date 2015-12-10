@@ -13,6 +13,7 @@
 .paragraphs{text-align: justify;color:white;}
 
 
+
 /* label color */
  .input-field label {
    color: #ef5350 ;
@@ -34,6 +35,9 @@
    color:white;
  }
 
+.testText{
+  color:white;
+}
 
  @media screen and (min-width:1920px) {
    #maincolumn{
@@ -41,9 +45,54 @@
    }
  }
 
+ @media only screen and (max-width : 1200px) {
+   .testText{
+     color:purple;
+   }
+   .subheadertext{
+     font-size: 14px;
+   }
+ }
+
+ @media only screen and (max-width : 1000px) {
+   .testText{
+     color:pink;
+   }
+   .subheadertext{
+     font-size: 14px;
+   }
+ }
+
+ @media only screen and (max-width : 900px) {
+   .testText{
+     color:grey;
+   }
+ }
+ @media only screen and (max-width : 860px) {
+   .testText{
+     color:green;
+   }
+   .subheadertext{
+     font-size: 12px;
+   }
+   #img_FitPhil{
+     height:90vh;
+     margin-top:15%;
+   }
+ }
+
+ @media only screen and (max-width : 720px) {
+   .testText{
+     color:blue;
+   }
+   .subheadertext{
+     font-size: 11px;
+   }
+ }
 
 @media only screen and (max-width : 600px) {
-
-
-
+  .testText{
+    color:red;
+  }
+  
 }
