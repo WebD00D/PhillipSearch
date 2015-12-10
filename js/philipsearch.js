@@ -9,17 +9,7 @@ $(document).ready(function(){
   $(".connect").css("color","white");
   $("#img_FitPhil").show();
 
-  $(window).on( "orientationchange", function(event) {
-
-    alert( "This device is in " + event.orientation + " mode!" );
-    if (event.orientation === 'landscape'){
-      
-    } else {
-
-    }
-
-
-  })
+  
 
 
   function hideAllTemplates(){
