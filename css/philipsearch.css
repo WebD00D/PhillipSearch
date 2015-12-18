@@ -12,7 +12,9 @@
 .linebreak{height:2px;background-color:white;border:none;}
 .paragraphs{text-align: justify;color:white;}
 
-
+#index-banner{
+  height:100vh;
+}
 
 /* label color */
  .input-field label {
@@ -94,5 +96,6 @@
   .testText{
     color:red;
   }
+
 
 }

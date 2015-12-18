@@ -1,4 +1,12 @@
 $(document).ready(function(){
+
+
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ // some code..
+ alert("hey mobile user!");
+  }
+
+
   $('.button-collapse').sideNav();
   hideAllTemplates();
   hideAllPhils();
