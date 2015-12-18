@@ -5,11 +5,14 @@ $(document).ready(function(){
 
 
   $( window ).on( "orientationchange", function( event ) {
-
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+
+      if (event.orientation === 'landscape'){
+        $("#maincontentrow").hide();
+      } else {
+          $("#maincontentrow").show();
+      }
    // some code..
-   alert( "This device is in " + event.orientation + " mode!" );
-    }
 
   });
 
