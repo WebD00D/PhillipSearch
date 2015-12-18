@@ -9,7 +9,12 @@ $(document).ready(function(){
   $(".connect").css("color","white");
   $("#img_FitPhil").show();
 
-  
+  $(".getstarted").click(function(){
+    hideAllTemplates();
+    hideAllPhils();
+    $("#tmpConnect").show();
+      $("#img_ContactPhil").show();
+  })
 
 
   function hideAllTemplates(){
