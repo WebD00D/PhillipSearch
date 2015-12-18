@@ -1,10 +1,20 @@
 $(document).ready(function(){
 
+  $(".ui-loader").hide();
 
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
- // some code..
- alert("hey mobile user!");
-  }
+
+
+  $( window ).on( "orientationchange", function( event ) {
+
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+   // some code..
+   alert( "This device is in " + event.orientation + " mode!" );
+    }
+
+  });
+
+
+
 
 
   $('.button-collapse').sideNav();
