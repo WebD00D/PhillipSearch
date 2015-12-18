@@ -9,10 +9,13 @@ $(document).ready(function(){
       if (event.orientation === 'landscape'){
         $("#maincontentrow").hide();
         $("#flipit").show();
+        $("#flipit").css("margin-top","100px");
+        $("#flipit").css("font-size","20px");
 
       } else {
           $("#maincontentrow").show();
           $("#flipit").hide();
+          $("#flipit").css("margin-top","0px");
       }
    // some code..
 
