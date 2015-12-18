@@ -2,19 +2,19 @@ $(document).ready(function(){
 
   $(".ui-loader").hide();
 
-
-
   $( window ).on( "orientationchange", function( event ) {
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 
       if (event.orientation === 'landscape'){
         $("#maincontentrow").hide();
+        alert("this content is better viewed in portrait mode");
       } else {
           $("#maincontentrow").show();
       }
    // some code..
 
-  });
+  };
+});
 
 
 
