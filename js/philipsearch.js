@@ -62,6 +62,7 @@ $(document).ready(function(){
     $("#img_LifePhil").hide();
     $("#img_FitPhil").hide();
     $("#img_ContactPhil").hide();
+    
   }
 
   function resetLinkColor(){
