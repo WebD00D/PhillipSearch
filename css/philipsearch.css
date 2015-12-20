@@ -7,13 +7,25 @@
 .lifebtn:hover{background-color: #e91e63 ;border-color: #e91e63 ;}
 .connectbtn:hover{background-color:#ef5350;border-color:#ef5350;}
 .logoimg{height:140px;margin-top: 20px;}
-.headertext{font-weight: 200;margin-top: 25%;color:orange;margin-bottom: 0px;}
+.headertext{font-weight: 200;margin-top: 15%;color:orange;margin-bottom: 0px;}
 .subheadertext{font-weight: 200;color:white;font-size: 17px;margin-top: 0px;margin-bottom:0px;}
 .linebreak{height:2px;background-color:white;border:none;}
 .paragraphs{text-align: justify;color:white;}
 
+#trx{height:30px;}
+#stressfix{height:50px;}
+#bosu{height:50px;}
+#libfit{height:40px;}
+#smile{height:50px;}
+#mus{height:40px;}
+
+
+
 #index-banner{
-  height:100vh;
+  height:90vh;
+}
+#sponsorRow{
+  height:10vh;
 }
 
 /* label color */
@@ -63,6 +75,19 @@
    .subheadertext{
      font-size: 14px;
    }
+   #trx{height:30px;}
+   #stressfix{height:50px;padding-left:15px;}
+   #bosu{height:50px;}
+   #libfit{height:40px;}
+   #smile{height:50px;padding-left:15px;}
+   #mus{height:25px;margin-top: 8px;}
+
+   #index-banner{
+     height:80vh;
+   }
+   #sponsorRow{
+     height:20vh;
+   }
  }
 
  @media only screen and (max-width : 900px) {
@@ -96,6 +121,20 @@
   .testText{
     color:red;
   }
+  #trx{height:30px;}
+  #stressfix{height:50px;padding-left:15px;}
+  #bosu{height:50px;}
+  #libfit{height:40px;}
+  #smile{height:50px;padding-left:15px;}
+  #mus{height:25px;}
+
+  #index-banner{
+    height:80vh;
+  }
+  #sponsorRow{
+    height:20vh;
+  }
+
 
 
 }
