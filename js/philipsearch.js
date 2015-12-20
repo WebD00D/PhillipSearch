@@ -11,11 +11,17 @@ $(document).ready(function(){
         $("#flipit").show();
         $("#flipit").css("margin-top","100px");
         $("#flipit").css("font-size","20px");
+        $("#index-banner").css("height","100vh");
+        $("#sponsorRow").hide();
+
+
 
       } else {
           $("#maincontentrow").show();
           $("#flipit").hide();
           $("#flipit").css("margin-top","0px");
+          $("#sponsorRow").show();
+          $("#index-banner").css("height","80vh");
       }
    // some code..
 
