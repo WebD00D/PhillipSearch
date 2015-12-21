@@ -128,13 +128,13 @@
   #smile{height:50px;padding-left:15px;}
   #mus{height:25px;}
 
+  .headertext{
+    margin-top:25%;
+  }
   #index-banner{
-    height:80vh;
+    height:100vh;
   }
-  #sponsorRow{
-    height:20vh;
-  }
-  
+
 
 
 
