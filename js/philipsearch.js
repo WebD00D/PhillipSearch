@@ -32,7 +32,10 @@ $(document).ready(function(){
 
 
 
-  $('.button-collapse').sideNav();
+  $('.button-collapse').sideNav({
+    edge: 'right', // Choose the horizontal origin
+   closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+  });
   hideAllTemplates();
   hideAllPhils();
   $("#tmpFitness").show();
@@ -62,7 +65,7 @@ $(document).ready(function(){
     $("#img_LifePhil").hide();
     $("#img_FitPhil").hide();
     $("#img_ContactPhil").hide();
-    
+
   }
 
   function resetLinkColor(){
