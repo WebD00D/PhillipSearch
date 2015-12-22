@@ -173,8 +173,8 @@
 
      </div>
     </div>
-     <div id="sponsorRow" class="grey darken-4 row hide-on-small-only" style="padding:10px;margin-bottom:0px">
-       <div class="col s12">
+     <div id="sponsorRow" class="grey darken-4 row hide-on-med-and-up" style="padding:0px;margin-bottom:0px">
+       <div class="col s12 sponsorPad">
             <div class="col l2  s4 center-align" style="padding-top:10px">
               <img id="trx" src="http://files.parsetfss.com/69cc1ebe-f693-4f84-ae97-93438bf7ac31/tfss-610887b4-a5ca-4f0a-91dd-34131a0b2289-PhilPartner_TRX.jpg">
             </div>
@@ -195,7 +195,9 @@
                 <img id="mus"  src="http://files.parsetfss.com/69cc1ebe-f693-4f84-ae97-93438bf7ac31/tfss-2f43f439-869a-4290-aba7-42a0ac2c7ab1-mus.jpg">
             </div>
        </div>
-
+       <div class="col s12" style="padding:5px;background-color:rgba(01,01,01,0.5);color:white;text-align:center;margin-top:15px">
+         <span style='font-weight:200'><small>Philip Search &copy <span id="currentYear"></span> All rights reserved.</small></span>
+       </div>
      </div>
 
 
@@ -211,9 +213,12 @@
     <script src="js/philipsearch.js"></script>
     <script>
 
+    $(document).ready(function(){
 
+      var theDate = new Date()
+      $("#currentYear").text(theDate.getFullYear());
 
-
+    })
 
 
     </script>

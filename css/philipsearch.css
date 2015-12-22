@@ -22,11 +22,9 @@
 
 
 #index-banner{
-  height:90vh;
+  height:100vh;
 }
-#sponsorRow{
-  height:10vh;
-}
+
 
 /* label color */
  .input-field label {
@@ -83,11 +81,9 @@
    #mus{height:25px;margin-top: 8px;}
 
    #index-banner{
-     height:80vh;
+     height:100vh;
    }
-   #sponsorRow{
-     height:20vh;
-   }
+
  }
 
  @media only screen and (max-width : 900px) {
@@ -124,15 +120,21 @@
   #trx{height:30px;}
   #stressfix{height:50px;padding-left:15px;}
   #bosu{height:50px;}
-  #libfit{height:40px;}
-  #smile{height:50px;padding-left:15px;}
-  #mus{height:25px;}
+  #libfit{height:40px;margin-top:20px}
+  #smile{height:50px;padding-left:15px;margin-top:20px}
+  #mus{height:25px;margin-top:20px}
 
   .headertext{
-    margin-top:25%;
+    margin-top:35%;
   }
   #index-banner{
     height:100vh;
+  }
+  #sponsorRow{
+
+  }
+  .sponsorPad{
+    margin-top:7%;
   }
 
 

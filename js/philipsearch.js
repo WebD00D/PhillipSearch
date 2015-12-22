@@ -21,7 +21,7 @@ $(document).ready(function(){
           $("#flipit").hide();
           $("#flipit").css("margin-top","0px");
           $("#sponsorRow").show();
-          $("#index-banner").css("height","80vh");
+          $("#index-banner").css("height","100vh");
       }
    // some code..
 
