@@ -73,11 +73,11 @@
  @media screen and (min-width:1920px) {
 
    #headertext{
-     margin-top:15%;
+     margin-top:10%;
    }
 
    #maincolumn{
-     padding-top: 10%;
+     padding-top: 0px;
    }
    #smileholder{padding-left:150px;}
    .paragraphs{
