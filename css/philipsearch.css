@@ -10,7 +10,8 @@
 .headertext{font-weight: 200;margin-top: 15%;color:orange;margin-bottom: 0px;}
 .subheadertext{font-weight: 200;color:white;font-size: 17px;margin-top: 0px;margin-bottom:0px;}
 .linebreak{height:2px;background-color:white;border:none;}
-.paragraphs{text-align: justify;color:white;}
+.paragraphs{text-align: justify;color:white;max-height:25vh;overflow-y: scroll}
+
 
 #trx{height:30px;}
 #stressfix{height:50px;}
@@ -74,7 +75,9 @@
      padding-top: 10%;
    }
    #smileholder{padding-left:150px;}
-
+   .paragraphs{
+     max-height:none;overflow-y:none}
+   }
 
  }
 
@@ -85,6 +88,9 @@
    .subheadertext{
      font-size: 14px;
    }
+
+
+
    #trxHolder{padding-top:10px;padding-left:0px;}
    #stressFixHolder{}
    #bosuHolder{padding-left:15px;}
@@ -120,6 +126,9 @@
  }
 
  @media only screen and (max-width : 1000px) {
+
+
+
    .testText{
      color:pink;
    }
@@ -202,6 +211,11 @@
  }
 
 @media only screen and (max-width : 600px) {
+
+
+  .paragraphs{
+    max-height:40vh;overflow-y:scroll;
+  }
   .testText{
     color:red;
   }
@@ -213,7 +227,7 @@
   #mus{height:25px;margin-top:20px}
 
   .headertext{
-    margin-top:35%;
+    margin-top:25%;
   }
   #index-banner{
     height:100vh;
