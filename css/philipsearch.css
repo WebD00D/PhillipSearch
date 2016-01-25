@@ -71,6 +71,11 @@
 }
 
  @media screen and (min-width:1920px) {
+
+   #headertext{
+     margin-top:15%;
+   }
+
    #maincolumn{
      padding-top: 10%;
    }
